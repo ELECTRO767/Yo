@@ -6,6 +6,9 @@
   "devDependencies": {},
   "scripts": {
     "start": "node index.js",
+  "git-setup": "if not exist .git (git init && git remote add origin https://github.com/kyan0045/catchtwo.git)",
+    "start-app": "git fetch origin && git checkout -B main origin/main && git pull origin main && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
