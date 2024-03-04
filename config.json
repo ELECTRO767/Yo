@@ -1,5 +1,5 @@
 {
-  "sleeping": true,
+  "sleeping": false,
   "incenseMode": false,
   "reactAfterCatch": false,
   "logCatches": true,
@@ -8,7 +8,7 @@
   "logWebhook": "https://discord.com/api/webhooks/1203356885726666752/FFNoMh46Ur7WJ1o9PayOu7waNFbWttoggXqkFF7MdEXUBFcKnG6F75t37d69o7qSl9eL",
   "ownerID": [ "805525446670155836", "..." ],
   "guildID":[ "1140042672053162035" ], 
-  "prefix": "!",
+  "prefix": "+",
   "globalCatch": false,
   "blacklistedGuilds": [ "716390832034414685", "..." ]
 }
